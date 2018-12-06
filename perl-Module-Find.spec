@@ -4,7 +4,7 @@
 #
 Name     : perl-Module-Find
 Version  : 0.13
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.13.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.13.tar.gz
 Summary  : 'Find and use installed modules in a (sub)category'
