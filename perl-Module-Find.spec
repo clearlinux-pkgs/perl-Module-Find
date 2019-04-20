@@ -4,10 +4,10 @@
 #
 Name     : perl-Module-Find
 Version  : 0.13
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.13.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.13.tar.gz
-Summary  : 'Find and use installed modules in a (sub)category'
+Summary  : Find and use installed perl modules in a (sub)category
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -23,6 +23,7 @@ between looking in the category itself or in all subcategories.
 Summary: dev components for the perl-Module-Find package.
 Group: Development
 Provides: perl-Module-Find-devel = %{version}-%{release}
+Requires: perl-Module-Find = %{version}-%{release}
 
 %description dev
 dev components for the perl-Module-Find package.
@@ -65,7 +66,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1/Module/Find.pm
+/usr/lib/perl5/vendor_perl/5.28.2/Module/Find.pm
 
 %files dev
 %defattr(-,root,root,-)
