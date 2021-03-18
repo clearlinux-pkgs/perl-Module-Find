@@ -4,7 +4,7 @@
 #
 Name     : perl-Module-Find
 Version  : 0.15
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.15.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.15.tar.gz
 Summary  : 'Find and use installed modules in a (sub)category'
@@ -84,4 +84,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Module/Find.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Module/Find.pm
