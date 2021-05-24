@@ -4,7 +4,7 @@
 #
 Name     : perl-Module-Find
 Version  : 0.15
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.15.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/C/CR/CRENZ/Module-Find-0.15.tar.gz
 Summary  : 'Find and use installed modules in a (sub)category'
